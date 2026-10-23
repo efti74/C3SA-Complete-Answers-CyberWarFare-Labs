@@ -61,10 +61,10 @@ Add your assessment file to this repository, for example:
 ```text
 .
 ├── README.md
-└── cybersecurity-assessment.txt
+└── cybersecurity-assessment.md
 ```
 
-Rename `cybersecurity-assessment.txt` to match the actual filename you upload.
+Rename `cybersecurity-assessment.md` to match the actual filename you upload.
 
 ## Disclaimer
 
