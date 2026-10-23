@@ -16,7 +16,7 @@ A 30-question assessment covering cybersecurity fundamentals, networking, virtua
 What is Initial Access in the context of cybersecurity?
 
 A. The process of logging into a computer or network for the first time.
-B. The first stage of a cyberattack where an attacker gains unauthorized entry into a system.
+B. The first stage of a cyberattack where an attacker gains unauthorized entry into a system.✔️
 C. The initial step taken by a user to establish a secure connection to a remote server.
 D. The first step in conducting a vulnerability assessment on a network
 
@@ -27,7 +27,7 @@ How do you categorise the file-attacks based on the following options?
 A. An attack where a malicious file is downloaded onto a victim's computer and executed.
 B. An attack where malware is embedded within a file and spreads when the file is opened.
 C. An attack where the attacker gains access to sensitive information stored in files on a compromised system.
-D. An attack that leverages legitimate system tools or processes to execute malicious code without leaving traces on the file system.
+D. An attack that leverages legitimate system tools or processes to execute malicious code without leaving traces on the file system.✔️
 
 ### Question 3
 
@@ -36,13 +36,13 @@ What is a hypervisor in virtualization technology?
 A. A software application used for creating virtual machines.
 B. A physical hardware device used to enhance virtual machine performance.
 C. A protocol used for secure communication between virtual machines.
-D. A software component that manages and controls virtual machines on a physical / virtual server.
+D. A software component that manages and controls virtual machines on a physical / virtual server.✔️
 
 ### Question 4
 
 What is the difference between Bridge Mode and NAT Mode in virtualization?
 
-A. Bridge Mode enables direct network communication between virtual machines, while NAT Mode provides network address translation for virtual machines.
+A. Bridge Mode enables direct network communication between virtual machines, while NAT Mode provides network address translation for virtual machines.✔️
 B. Bridge Mode provides network address translation for virtual machines, while NAT Mode enables direct network communication between virtual machines.
 C. Bridge Mode allows virtual machines to share the host's IP address, while NAT Mode assigns separate IP addresses to each virtual machine.
 D. Bridge Mode assigns separate IP addresses to each virtual machine, while NAT Mode allows virtual machines to share the host's IP address.
@@ -51,7 +51,7 @@ D. Bridge Mode assigns separate IP addresses to each virtual machine, while NAT 
 
 In the context of web security, what is the implication of "pass the cookie" attack, suppose if an attacker has accessed the session cookie of a website on a client browser that was securely authenticated using MFA (Multi-Factor Authentication)?
 
-A. The attacker can use the stolen session cookie to gain unauthorized access to the specific website.
+A. The attacker can use the stolen session cookie to gain unauthorized access to the specific website.✔️
 B. MFA prevents session cookies from being stolen, so the attack is not possible even if the cookie is accessed.
 C. The stolen session cookie becomes useless for the attacker since MFA provides an additional layer of security.
 D. MFA only protects against password-based attacks, so the attacker can still utilize the stolen session cookie.
@@ -78,7 +78,7 @@ Question: What vulnerability is present in the above Python code?
 
 A. Cross-Site Scripting (XSS)
 B. Remote File Inclusion (RFI)
-C. Remote Code Execution (RCE)
+C. Remote Code Execution (RCE)✔️
 D. SQL Injection
 
 ### Question 7
@@ -105,7 +105,7 @@ read_file(file_name)
 Question: What vulnerability is present in the above Python code?
 
 A. Cross-Site Scripting (XSS)
-B. File Inclusion (FI)
+B. File Inclusion (FI)✔️
 C. Remote Code Execution (RCE)
 D. SQL Injection
 
@@ -115,7 +115,7 @@ What is an IDN homograph attack in the context of cybersecurity?
 
 A. An attack that involves intercepting and manipulating data packets between two devices.
 B. An attack that targets insecure network protocols to gain unauthorized access.
-C. An attack that leverages visually similar characters from different character sets to create deceptive domain names.
+C. An attack that leverages visually similar characters from different character sets to create deceptive domain names.✔️
 D. An attack that exploits vulnerabilities in web browsers to execute arbitrary code.
 
 ### Question 9
@@ -124,7 +124,7 @@ In a network traffic analysis using Wireshark, you need to filter and display on
 
 A. ip.src == "specific IP address" && http
 B. ip.dst == "specific IP address" && http
-C. http.request && ip.addr == "specific IP address"
+C. http.request && ip.addr == "specific IP address"✔️
 D. http.response && ip.addr == "specific IP address"
 
 ### Question 10
@@ -140,7 +140,7 @@ packet = IP(dst="192.168.0.1")/TCP(dport=80)
 send(packet)
 ```
 
-**B.**
+**B.**✔️
 
 ```python
 from scapy.all import *
@@ -171,7 +171,7 @@ sendp(packet, iface="eth0")
 
 What is the main difference between a reverse shell and a bind shell?
 
-A. The direction of the network connection established.
+A. The direction of the network connection established.✔️
 B. The encryption used for communication
 C. The operating systems they are compatible with
 D. The type of payload used in the shellcode
@@ -181,7 +181,7 @@ D. The type of payload used in the shellcode
 What is the main difference between stagers, singles, and stages in the context of shellcode payloads?
 
 A. The size of the payload generated.
-B. The number of network connections established.
+B. The number of network connections established.✔️
 C. The obfuscation techniques used in the payload.
 D. The type of payloads used for different exploitation scenarios.
 
@@ -189,7 +189,7 @@ D. The type of payloads used for different exploitation scenarios.
 
 What is the main difference between a Meterpreter and a normal shell?
 
-A. Meterpreter provides advanced post-exploitation capabilities, while a normal shell only offers basic command execution.
+A. Meterpreter provides advanced post-exploitation capabilities, while a normal shell only offers basic command execution.✔️
 B. Meterpreter can only be used on Windows systems, while a normal shell is compatible with multiple operating systems.
 C. Meterpreter establishes an encrypted connection between the attacker and the target, while a normal shell uses plaintext communication.
 D. Meterpreter requires additional privileges to execute, while a normal shell can be obtained with basic user privileges.
@@ -198,7 +198,7 @@ D. Meterpreter requires additional privileges to execute, while a normal shell c
 
 In Linux, what does the file permission "rw-r--r--" represent?
 
-A. The file is readable and writable by the owner, and readable by the group and others.
+A. The file is readable and writable by the owner, and readable by the group and others.✔️
 B. The file is readable and writable by the owner, and readable by the group, but not accessible by others.
 C. The file is readable and writable by the owner only, and not accessible by the group and others.
 D. The file is readable by the owner, group, and others, but not writable by anyone.
@@ -208,7 +208,7 @@ D. The file is readable by the owner, group, and others, but not writable by any
 GTFO bins are a collection of Unix binaries commonly used for privilege escalation or bypassing restrictions. Which of the following statements about GTFO bins is correct?
 
 A. GTFO bins are pre-compiled binaries specifically designed for hacking purposes.
-B. GTFO bins are legitimate system binaries that can be misused for privilege escalation or bypassing restrictions.
+B. GTFO bins are legitimate system binaries that can be misused for privilege escalation or bypassing restrictions.✔️
 C. GTFO bins are primarily used for network scanning and port enumeration.
 D. GTFO bins are exclusively used in Windows environments for malicious activities.
 
@@ -217,7 +217,7 @@ D. GTFO bins are exclusively used in Windows environments for malicious activiti
 Which of the following statements about the "schtasks" command is correct?
 
 A. The "schtasks" command can only be executed by users with administrative privileges.
-B. The "schtasks" command allows you to create, modify, and delete scheduled tasks on Windows systems.
+B. The "schtasks" command allows you to create, modify, and delete scheduled tasks on Windows systems.✔️
 C. The "schtasks" command is used to view the list of active processes running on the system.
 D. The "schtasks" command is exclusive to Windows Server editions and cannot be used on Windows client operating systems.
 
@@ -225,7 +225,7 @@ D. The "schtasks" command is exclusive to Windows Server editions and cannot be 
 
 Which command can be used with the "netsh" command in Windows to extract the WiFi password of a network?
 
-A. netsh wlan show profile name="NetworkName" key=clear
+A. netsh wlan show profile name="NetworkName" key=clear✔️
 B. netsh wlan show password name="NetworkName"
 C. netsh wlan view profile name="NetworkName" key=clear
 D. netsh wlan retrieve password name="NetworkName"
@@ -237,7 +237,7 @@ The PowerShell execution policy in Windows serves a crucial role in controlling 
 A. The execution policy "Restricted" prevents the execution of all scripts on the system, including signed and unsigned scripts.
 B. The execution policy "RemoteSigned" allows the execution of local scripts without digital signatures but requires remote scripts to be signed.
 C. The execution policy "AllSigned" mandates that all scripts, whether local or remote, must be digitally signed to be executed.
-D. The execution policy "Unrestricted" grants unrestricted execution of all scripts without any restrictions or digital signature requirements.
+D. The execution policy "Unrestricted" grants unrestricted execution of all scripts without any restrictions or digital signature requirements.✔️
 
 ### Question 19
 
@@ -248,7 +248,7 @@ Consider the following scenarios. Identify the most suitable cloud service model
 4 A startup requires an email service to handle their communication needs. They want a cost-effective solution that can scale with their growing business and eliminate the need for managing hardware or software maintenance.
 
 A. Scenario 1: SaaS, Scenario 2: PaaS, Scenario 3: IaaS, Scenario 4: SaaS
-B. Scenario 1: PaaS, Scenario 2: SaaS, Scenario 3: IaaS, Scenario 4: SaaS
+B. Scenario 1: PaaS, Scenario 2: SaaS, Scenario 3: IaaS, Scenario 4: SaaS✔️
 C. Scenario 1: SaaS, Scenario 2: IaaS, Scenario 3: PaaS, Scenario 4: SaaS
 D. Scenario 1: PaaS, Scenario 2: IaaS, Scenario 3: SaaS, Scenario 4: PaaS
 
@@ -256,7 +256,7 @@ D. Scenario 1: PaaS, Scenario 2: IaaS, Scenario 3: SaaS, Scenario 4: PaaS
 
 When configuring security groups in AWS, which statement about their behavior is correct?
 
-A. Security groups act as virtual firewalls at the instance level, controlling inbound and outbound traffic based on rules.
+A. Security groups act as virtual firewalls at the instance level, controlling inbound and outbound traffic based on rules.✔️
 B. Security groups are associated with subnets and control network traffic between different subnets in a VPC.
 C. Security groups are used to restrict access to IAM users and manage user permissions within an AWS account.
 D. Security groups provide network load balancing capabilities to distribute incoming traffic across multiple instances.
@@ -282,7 +282,7 @@ Outbound Rule: Allow all traffic to any destination
 Database Security Group:
 Inbound Rule: Allow all traffic from the web server security group
 Outbound Rule: Allow all traffic to any destination
-C. Web Server Security Group:
+C. Web Server Security Group:✔️
 Inbound Rule: Allow HTTP (Port 80) from 0.0.0.0/0
 Inbound Rule: Allow SSH (Port 22) from the specific IP range
 Outbound Rule: Allow all traffic to any destination
@@ -304,7 +304,7 @@ Scenario: You are setting up an Amazon EC2 instance in AWS for hosting a web app
 Based on the given scenario, which AWS service or feature would you use to achieve these requirements?
 
 A. AWS CloudFront
-B. AWS Elastic Load Balancer (ELB)
+B. AWS Elastic Load Balancer (ELB)✔️
 C. AWS Auto Scaling
 D. AWS Virtual Private Cloud (VPC)
 
@@ -313,7 +313,7 @@ D. AWS Virtual Private Cloud (VPC)
 Scenario: You are designing the network architecture for a company's cloud infrastructure on AWS. The company has multiple departments with different security requirements. The finance department deals with sensitive financial data and needs to be isolated from other departments. The development department needs access to external resources for software updates, but you want to restrict their access to specific approved sources only.
 Based on the given scenario, which AWS service or feature would you use to meet these security requirements and ensure network isolation and controlled access?
 
-A. AWS Virtual Private Cloud (VPC)
+A. AWS Virtual Private Cloud (VPC)✔️
 B. AWS Identity and Access Management (IAM)
 C. AWS Security Groups
 D. AWS Network Access Control Lists (ACLs)
@@ -326,7 +326,7 @@ Based on the given scenario, which IAM feature or practice should be implemented
 A. Monitoring and reviewing IAM user activity
 B. Implementing multi-factor authentication (MFA)
 C. Regularly rotating access keys and credentials
-D. Enforcing the principle of least privilege
+D. Enforcing the principle of least privilege✔️
 
 ### Question 25
 
@@ -364,7 +364,7 @@ Based on the provided IAM policy, what permissions are granted to the user?
 A. Read, write, and delete objects in the "example-bucket" S3 bucket.
 B. Delete objects in the "example-bucket" S3 bucket, but cannot read or write objects.
 C. List the contents of the "example-bucket" S3 bucket, but cannot read, write, or delete objects.
-D. Read and write objects in the "example-bucket" S3 bucket, but cannot delete objects.
+D. Read and write objects in the "example-bucket" S3 bucket, but cannot delete objects.✔️
 
 ### Question 26
 
@@ -392,7 +392,7 @@ Based on the provided IAM role, what can you infer about its configuration?
 
 A. The role allows EC2 instances to assume this role and has full access to Amazon S3.
 B. The role allows users to assume this role and has read-only access to Amazon S3.
-C. The role allows EC2 instances to assume this role and has read-only access to Amazon S3.
+C. The role allows EC2 instances to assume this role and has read-only access to Amazon S3.✔️
 D. The role allows users to assume this role and has full access to Amazon S3.
 
 ### Question 27
@@ -408,7 +408,7 @@ Select the correct option:
 
 A. A and B only
 B. B and C only
-C. A, C, and D only
+C. A, C, and D only✔️
 D. All of the above
 
 ### Question 28
@@ -422,7 +422,7 @@ Select the correct option:
 
 A. A and B only
 B. B and C only
-C. C only
+C. C only✔️
 D. A, C, and D only
 
 ### Question 29
@@ -433,7 +433,7 @@ Decode the values in the following Snort rule:
 A. The rule triggers an alert for TCP traffic from any source IP and port to any destination IP and port.
 B. The rule triggers an alert for any protocol traffic from any source IP and port to any destination IP and port.
 C. The rule triggers an alert for TCP traffic from any source IP and port to any destination IP and port, with the payload containing "GET".
-D. The rule triggers an alert for TCP traffic from any source IP and port to any destination IP and port, with the payload containing ".php?file=".
+D. The rule triggers an alert for TCP traffic from any source IP and port to any destination IP and port, with the payload containing ".php?file=".✔️
 
 ### Question 30
 
@@ -443,7 +443,7 @@ In the given post-breach scenario, which osquery query can be used to identify p
 
 A. `SELECT * FROM processes WHERE name = "malware.exe"`
 B. `SELECT * FROM users WHERE last_login > DATE_SUB(NOW(), INTERVAL 7 DAY)`
-C. `SELECT * FROM file WHERE path = "/var/log/audit.log" AND content LIKE "%suspicious_keyword%"`
+C. `SELECT * FROM file WHERE path = "/var/log/audit.log" AND content LIKE "%suspicious_keyword%"`✔️
 D. `SELECT * FROM services WHERE state = "running" AND startup_mode != "auto"`
 
 ## Disclaimer
