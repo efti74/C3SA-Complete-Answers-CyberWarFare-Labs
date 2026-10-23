@@ -140,7 +140,7 @@ packet = IP(dst="192.168.0.1")/TCP(dport=80)
 send(packet)
 ```  
 
-**B.**✔️
+**B.** ✔️
 
 ```python
 from scapy.all import *
